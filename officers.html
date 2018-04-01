@@ -15,14 +15,22 @@
 		text-decoration: none;
 	}
 
+	.heading {
+		padding-top: 10px;
+		margin: 30px;
+		font-size: 3em;
+		color:  #3366ff;
+	}
+
+	.centerHead {
+		width: 60%;
+		margin: 0 auto;
+	}
+
 	.btn {
 		border-radius: 0;
 	}
 
-	.header {
-		text-align: center;
-		color: white;
-	}
 
 	.societyList {
 		padding-top: 10px;
@@ -30,9 +38,12 @@
 	}
 
 	.about {
+		margin: 10px;
 		background-color: #D3D3D3;	
 		border-radius: 6px;
-	}
+		height:auto; 
+		min-height:100%;
+		}
 
 	.indent {
 		margin-left: 20px;
@@ -42,11 +53,25 @@
 		text-align: center;
 	}
 
+	.spacedList {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.textMuted {
+		font-size: 4em;
+	}
+
+	.headingdescription {
+		text-align: center;
+	}
+
 	.positions {
 		text-align: center;
 	}
-	body {
 
+	body {
+		height: 100%;
 	}
 	</style>
 </head>
@@ -57,12 +82,21 @@
 		<span class="navigation"><button type="button" class="btn"><a href="http://web.ics.purdue.edu/~nobbe1/pbk/officers.html">Officers</a></button></span>
 		<span class="navigation"><button type="button" class="btn"><a href="http://web.ics.purdue.edu/~nobbe1/pbk/membership.html">Membership</a></button></span>
 		<span class="navigation"><button type="button" class="btn"><a href="http://web.ics.purdue.edu/~nobbe1/pbk/events.html">Events</a></button></span>
-    </div>
-    <div class="information">
-    	<div class="about"><h3 class="aboutIndent">Officers</h3>
+		<div class="centerHead">
+			<span class="heading">P u r d u e</span>
+			<span class="heading">P h i</span>
+			<span class="heading">B e t a</span>
+			<span class="heading">K a p p a</span>
+		</div>
+		<div class="headingdescription">  <h4 class="text-muted">The Nation's Oldest Honor Society</h4></div>
+		</div>
+		<div class="about"><h3 class="aboutIndent">Officers</h3>
     		<h4 class="positions">President</h4>
-    		<h4>Vice President</h4>
-    		<h4>add more positions here</h4>
+    		<h2 class="specific"></h2>
+    		<h4 class="positions">Vice President</h4>
+    		<h2 class="specific"></h2>
+    		<h4 class="positions">add more positions here</h4>
+    		<h2 class="specific"></h2>
     	</div>
     </div>   
 </body>
